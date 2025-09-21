@@ -149,3 +149,10 @@ Digunakan lintas layer, tanpa ketergantungan ke satu domain/module tertentu.
 ```
 
 ### Thank You 
+
+### Author
+
+Ginanjar Dwi Putranto
+
+- [Gitlab](https://gitlab.com/genjerdotkom)
+- [LinkedIn](https://www.linkedin.com/in/ginanjar-putranto-0416a913b/)
