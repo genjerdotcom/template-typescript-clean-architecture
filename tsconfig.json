@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@app/*": ["*"]
+    },
+
+    /* Module resolution options */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Decorators support */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    /* Import helpers */
+    "resolveJsonModule": true,
+
+    /* Strictness */
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

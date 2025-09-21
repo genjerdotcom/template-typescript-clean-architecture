@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UserDeleteController = exports.UserUpdateController = exports.UserDetailController = exports.UserGetController = exports.UserCreateController = void 0;
+const create_http_controller_1 = require("../../../modules/user/controllers/create.http.controller");
+Object.defineProperty(exports, "UserCreateController", { enumerable: true, get: function () { return create_http_controller_1.UserCreateController; } });
+const get_http_controller_1 = require("../../../modules/user/controllers/get.http.controller");
+Object.defineProperty(exports, "UserGetController", { enumerable: true, get: function () { return get_http_controller_1.UserGetController; } });
+const detail_http_controller_1 = require("../../../modules/user/controllers/detail.http.controller");
+Object.defineProperty(exports, "UserDetailController", { enumerable: true, get: function () { return detail_http_controller_1.UserDetailController; } });
+const update_http_controller_1 = require("../../../modules/user/controllers/update.http.controller");
+Object.defineProperty(exports, "UserUpdateController", { enumerable: true, get: function () { return update_http_controller_1.UserUpdateController; } });
+const delete_http_controller_1 = require("../../../modules/user/controllers/delete.http.controller");
+Object.defineProperty(exports, "UserDeleteController", { enumerable: true, get: function () { return delete_http_controller_1.UserDeleteController; } });

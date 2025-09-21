@@ -1,0 +1,14 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testMatch": [
+    "**/test/**/*.test.ts",
+    "**/__test__/**/*.test.ts",
+    "**/__tests__/**/*.test.ts"
+  ],
+  "moduleFileExtensions": ["ts", "js", "json"],
+  "verbose": true,
+  "moduleNameMapper": {
+    "^@app/(.*)$": "<rootDir>/src/$1"
+  }
+}

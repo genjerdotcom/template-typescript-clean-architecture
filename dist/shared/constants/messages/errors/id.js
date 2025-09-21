@@ -1,0 +1,31 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const id = {
+    invalidBody: '${key} tidak valid',
+    incompleteKey: 'Kunci wajib di ${placement} tidak ditemukan: ${key}',
+    incompleteValue: 'Nilai wajib di ${placement} tidak ditemukan: ${key}',
+    invalidCredentials: 'Kredensial tidak valid',
+    invalidType: 'Tipe data tidak valid: ${key}',
+    invalidFileType: 'Format file untuk ${key} harus: ${message}',
+    maxFileSize: 'Ukuran file ${key} melebihi batas',
+    notFoundResource: '${key} tidak ditemukan',
+    errorFindResource: 'Gagal mencari data: ${key}',
+    errorCreateResource: 'Gagal membuat data: ${key}',
+    errorUpdateResource: 'Gagal memperbarui data: ${key}',
+    errorDeleteResource: 'Gagal menghapus data: ${key}',
+    invalidFormat: 'Format tidak valid: ${key}',
+    alreadyUsed: '${key} sudah digunakan',
+    invalidOption: '${key} tidak termasuk dalam pilihan yang tersedia',
+    loginError: 'Gagal masuk',
+    unauthorized: 'Tidak memiliki otorisasi',
+    expired: '${key} sudah kedaluwarsa',
+    invalidMaxLength: 'Panjang ${key} tidak boleh lebih dari ${value} karakter',
+    invalidMinLength: 'Panjang ${key} tidak boleh kurang dari ${value} karakter',
+    invalidMaxValue: 'Nilai ${key} tidak boleh lebih dari ${value}',
+    invalidMinValue: 'Nilai ${key} tidak boleh kurang dari ${value}',
+    forbidden: 'Akses dilarang',
+    generalRequestErrors: '${key}',
+    invalidProcess: 'Proses tidak valid: ${message}',
+    somethingWentWrong: 'Terjadi kesalahan, silakan hubungi layanan pengaduan pelanggan kami',
+};
+exports.default = id;

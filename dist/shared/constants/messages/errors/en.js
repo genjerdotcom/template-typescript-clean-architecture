@@ -1,0 +1,31 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const en = {
+    invalidBody: '${key} invalid',
+    incompleteKey: 'Missing required key in ${placement}: ${key}',
+    incompleteValue: 'Missing required value in ${placement}: ${key}',
+    invalidCredentials: 'Invalid Credentials',
+    invalidType: 'Value is invalid data type: ${key}',
+    invalidFileType: 'Value of ${key} must be in format: ${message}',
+    maxFileSize: 'File ${key} exceeds size',
+    notFoundResource: '${key} not found',
+    errorFindResource: 'Failed find resource: ${key}',
+    errorCreateResource: 'Failed create resource: ${key}',
+    errorUpdateResource: 'Failed update resource: ${key}',
+    errorDeleteResource: 'Failed delete resource: ${key}',
+    invalidFormat: 'Format is not valid: ${key}',
+    alreadyUsed: 'Fill exists: ${key}',
+    invalidOption: 'Fill is not in the options: ${key}',
+    loginError: 'Login failed',
+    unauthorized: 'Failed to authorized',
+    expired: '${key} expired',
+    invalidMaxLength: 'Length of ${key} shall not be more than ${value}',
+    invalidMinLength: 'Length of ${key} shall not be less than ${value}',
+    invalidMaxValue: 'Value of ${key} shall not be more than ${value}',
+    invalidMinValue: 'Value of ${key} shall not be less than ${value}',
+    forbidden: 'Forbiden access',
+    generalRequestErrors: '${key}',
+    invalidProcess: 'Process invalid: ${message}',
+    somethingWentWrong: 'An error has occurred, please contact our customer complaints service',
+};
+exports.default = en;
